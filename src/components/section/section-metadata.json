@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_section_section_metadata",
+  "info": {
+    "displayName": "section_metadata",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "section_id": {
+      "type": "string",
+      "required": true,
+      "default": "section-id",
+      "maxLength": 50,
+      "minLength": 3
+    },
+    "background": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
